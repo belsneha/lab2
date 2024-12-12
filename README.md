@@ -1,4 +1,6 @@
 # lab2
+
+
 TCL Program:  
 lab2.tcl 
 set ns [ new Simulator ] 
@@ -109,6 +111,8 @@ $ns at 2.8 "$p3 send"
 $ns at 2.9 "$p3 send" 
 $ns at 3.0 "finish" 
 $ns run
+
+
 AWK Program:  
 lab2.awk 
 BEGIN{ 
